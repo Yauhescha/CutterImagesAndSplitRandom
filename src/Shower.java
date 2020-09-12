@@ -21,6 +21,7 @@ public class Shower {
 			this.frame = frame;
 		}
 
+		@SuppressWarnings("deprecation")
 		public void run() {
 			frame.show();
 		}
