@@ -34,7 +34,6 @@ public class Main {
 			BufferedImage newI = Cutter.made(image, 4, 4);
 
 			if (newI != null) {
-				String filename = entry.getAbsoluteFile().toString().replace(".jpg", ".png");
 				ImageIO.write(newI, "png", entry.getAbsoluteFile());
 			}
 			
