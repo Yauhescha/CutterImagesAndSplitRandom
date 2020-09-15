@@ -7,7 +7,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Shower shower = new Shower();
 		Main main = new Main();
 //		File folder = new File("d://2.jpg");
 		File folder = new File("d://anime");
